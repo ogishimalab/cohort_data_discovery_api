@@ -13,7 +13,7 @@ Cohort data discovery APIは、大規模コホート研究のデータ発見の�
 - 我々が標準化を行ったメタデータ
   - コホートレベルメタデータ（コホートのサマリー、登録、収集データの種別などのコホートの特徴を表すメタデータ）
   - コレクションレベルメタデータ（Upper cohort nameやデータ収集期間などのコレクションの特徴を表すメタデータ）
-  - individual-level metadata（-----である）
+  - individual-level metadata（individual eventsから発生するデータエレメントの由来、standard identifiersを含む特徴を表すメタデータ）
 および、
 - データエレメントの統計的特性統計的性質
   - 分布情報
