@@ -2,6 +2,7 @@
 
 
 Cohort data discovery APIは、大規模コホート研究のデータ発見のためにデザイン・実装されたAPI機能およびエンドポイントです。大規模コホート研究は、特に多因子疾患のprecision medicineの実装のために、多種類かつ大量のデータを収集しています。一方で、どのコホート研究でどのようなデータを収集しているかのデータ発見が困難であり、mega cohortの構築が不可能な状態となっている。
+大規模コホートデータを含むバイオバンク関連データの標準は、the minimum data element of biobank-related data, including large-scale cohort data（MIABIS）の、biobank, collections and indvidual componentsの3つの層が定義されている[Eklund N et al, Biopreserv Biobank. 2020(https://www.liebertpub.com/doi/10.1089/bio.2019.0129)]。
 このAPIでは、我々が標準化を行ったcohort-, collection- and individual-level metadataおよび、分布情報などのデータエレメントの統計的特性をハンドルし、データベースの検索を通じてJSON形式で返却することで、研究者が研究対象とするデータセットが含まれるコホート、コレクション、データエレメントのセットの発見を促進する。
 
 
