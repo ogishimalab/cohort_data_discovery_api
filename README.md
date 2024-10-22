@@ -1,4 +1,4 @@
-# Cohort Data Discovery Api
+# Cohort Data Discovery API
 
 
 Cohort data discovery APIは、大規模コホート研究のデータ発見のためにデザイン・実装されたAPI機能およびエンドポイントです。大規模コホート研究は、特に多因子疾患のprecision medicineの実装のために、多種類かつ大量のデータを収集しています。一方で、どのコホート研究でどのようなデータを収集しているかのデータ発見が困難であり、mega cohortの構築が不可能な状態となっている。
