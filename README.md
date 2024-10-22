@@ -24,7 +24,7 @@ MIT License
 If you utilize this repository, data in a downstream project, please consider citing it with:
 
 ```
-@misc{localai,
+@misc{cohort_data_discovery_api,
   author = {Satoshi Mizuno, Satoshi Nagaie, Ryosuke Ishiwata, Atsushi Hozawa, Masayuki Yamamoto, Soichi Ogishima},
   title = {Designing and implementing application programming interfaces (APIs) to discover data from large-scale cohort studies to develop the mega cohort},
   year = {2024},
