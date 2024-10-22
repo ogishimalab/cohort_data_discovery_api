@@ -30,7 +30,7 @@ Laravel framework version 8.0 and PHP 7.4
 3. （Optional) 可視化のためのWebインターフェースを用意する
 
 # Specifications
-See specifications
+See [specifications(https://github.com/ogishimalab/cohort_data_discovery_api/blob/main/API/specifications.md)]
 
 # Licensing
 MIT License
