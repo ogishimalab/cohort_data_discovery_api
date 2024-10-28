@@ -4,22 +4,19 @@
 ### API/routes/API.php
 APIルートを記述し、以下のAPIエンドポイントが登録されている。それぞれのAPIエンドポイントは、JwtController.phpの各API機能を呼び出し、バックエンドのデータベースから必要なデータを取得し、JSON形式で返却する。
 
-1. dataCollection
+1. cohortLevelMetadata
+- 呼び出されるAPI機能：cohortLevelMetadata
+2. dataCollection
 - 呼び出されるAPI機能：dataCollection
-2. searchAllItems/{data_collection_id}
+3. searchAllItems/{data_collection_id}
 - 呼び出されるAPI機能：searchAllItems
-3. searchItemsHierarchy/{data_collection_id}/{parent_id?}
+4. searchItemsHierarchy/{data_collection_id}/{parent_id?}
 - 呼び出されるAPI機能：searchItemsHierarchy
-4. itemLevelMetadata/{data_collection_id}/{item_id}
-- 呼び出されるAPI機能：itemId
 5. itemLevelMetadata/{data_collection_id}/{item_id}/{stratification_type?}
 - 呼び出されるAPI機能：itemLevelMetadata
 6. statisticalData/{data_collection_id}/{item_id}/{stratification_type?}
 - 呼び出されるAPI機能：statisticalData
-7. itemLevelMetadata/{data_collection_id}/{item_id}/{stratification_type}
-- 呼び出されるAPI機能：stratificationType
-8. cohortLevelMetadata
-- 呼び出されるAPI機能：cohortLevelMetadata
+
 
 ### API/app/Controllers/JwtController.php
 各APIエンドポイントから呼び出されるAPI機能
@@ -42,7 +39,6 @@ APIルートを記述し、以下のAPIエンドポイントが登録されて�
   - dataCollectionID
   - releaseDate
   - dataCollectionName
-  - base_items ← 何？
 
 3.searchAllItems
 - 説明
@@ -110,28 +106,3 @@ APIルートを記述し、以下のAPIエンドポイントが登録されて�
   - barplotLegendFormat
   - histgramScale
   - histgramScaleFormat
-
-7. login
-- 説明
-  - JWT認証のためのAPI
-- 引数
-  - Email
-  - password
-- Returns
-  - ログイン成功の場合
-    - access_token
-    - token_type
-    - expires_in
-  - ログイン失敗の場合
-    - 
-8. logout
-- 説明
-- 引数
-- Returns
-
-9. refresh
-- 説明
-  - Refresh a token.
-- 引数
-  - なし
-- Returns
