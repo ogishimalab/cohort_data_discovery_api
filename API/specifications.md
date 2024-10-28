@@ -4,25 +4,21 @@
 ### API/routes/API.php
 APIルートを記述し、以下のAPIエンドポイントが登録されている。それぞれのAPIエンドポイントは、JwtController.phpの各API機能を呼び出し、バックエンドのデータベースから必要なデータを取得し、JSON形式で返却する。
 
-1. logout
-- 呼び出されるAPI機能：logout
-2. dataCollection
+1. dataCollection
 - 呼び出されるAPI機能：dataCollection
-3. searchAllItems/{data_collection_id}
+2. searchAllItems/{data_collection_id}
 - 呼び出されるAPI機能：searchAllItems
-4. searchItemsHierarchy/{data_collection_id}/{parent_id?}
+3. searchItemsHierarchy/{data_collection_id}/{parent_id?}
 - 呼び出されるAPI機能：searchItemsHierarchy
-5. itemLevelMetadata/{data_collection_id}/{item_id}
+4. itemLevelMetadata/{data_collection_id}/{item_id}
 - 呼び出されるAPI機能：itemId
-6. itemLevelMetadata/{data_collection_id}/{item_id}/{stratification_type?}
+5. itemLevelMetadata/{data_collection_id}/{item_id}/{stratification_type?}
 - 呼び出されるAPI機能：itemLevelMetadata
-7. statisticalData/{data_collection_id}/{item_id}/{stratification_type?}
+6. statisticalData/{data_collection_id}/{item_id}/{stratification_type?}
 - 呼び出されるAPI機能：statisticalData
-8. itemLevelMetadata/{data_collection_id}/{item_id}/{stratification_type}
+7. itemLevelMetadata/{data_collection_id}/{item_id}/{stratification_type}
 - 呼び出されるAPI機能：stratificationType
-9. path/{data_collection_id}/{item_id?}
-- 呼び出されるAPI機能：path
-10. cohortLevelMetadata
+8. cohortLevelMetadata
 - 呼び出されるAPI機能：cohortLevelMetadata
 
 ### API/app/Controllers/JwtController.php
