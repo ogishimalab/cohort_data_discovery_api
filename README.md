@@ -24,7 +24,7 @@ Cohort data discovery APIは、大規模コホート研究のデータ発見の�
 # Requirenent
 Laravel framework version 8.0 and PHP 7.4
 
-# Ussge
+# Usage
 1. Laravel, PHP, mySQLのインストール、設定
 2. mySQLデータベースのcreate (create文を用意）
 3. （Optional) 可視化のためのWebインターフェースを用意する
