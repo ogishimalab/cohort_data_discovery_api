@@ -4,11 +4,9 @@
 Cohort data discovery API is the API function and API endpoint designed and implemented for data discovery from large-scale cohort studies. 
 In the large-scale cohort studies, to implement precision
 medicine for multifactorial diseases, wide variety of large amounts of data are collection including lifestyle data, laboratory data,
-physiological data, clinical data, lifelog data, and genome and omics data. 
+physiological data, clinical data, lifelog data, and genome and omics data. On the other hands, there is a hurdle to achieve data discovery from collected data in the cohort studies to develp mega cohorts.
 
-一方で、どのコホート研究でどのようなデータを収集しているかのデータ発見が困難であり、mega cohortの構築が不可能な状態となっている。
-
-大規模コホートデータを含むバイオバンク関連データの標準は、the minimum data element of biobank-related data, including large-scale cohort data（MIABIS）の、
+For the 大規模コホートデータを含むバイオバンク関連データの標準は、the minimum data element of biobank-related data, including large-scale cohort data（MIABIS）の、
 - biobank
 - collections
 - indvidual components
