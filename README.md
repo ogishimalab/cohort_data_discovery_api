@@ -4,26 +4,27 @@
 Cohort data discovery API is the API function and API endpoint designed and implemented for data discovery from large-scale cohort studies. 
 In the large-scale cohort studies, to implement precision
 medicine for multifactorial diseases, wide variety of large amounts of data are collection including lifestyle data, laboratory data,
-physiological data, clinical data, lifelog data, and genome and omics data. On the other hands, there is a hurdle to achieve data discovery from collected data in the cohort studies to develp mega cohorts.
+physiological data, clinical data, lifelog data, and genome and omics data. Because of the large and complex data, there is a hurdle to achieve data discovery from collected data in the cohort studies to develp mega cohorts.
 
 
-As the standard of the minimum data element of biobank-related data including large-scale cohort data, the  the Minimum Information About BIobank data Sharing (MIABIS) has been developed. 
-Ths MIABIS has a three-layered structure consising of;
+As the standard of the minimum data element of biobank-related data including large-scale cohort data, the Minimum Information About BIobank data Sharing (MIABIS) has been developed. 
+Ths MIABIS has a three-layered structure consising of
 - biobank
 - collections
 - indvidual components
 [Eklund N et al, Biopreserv Biobank. 2020(https://www.liebertpub.com/doi/10.1089/bio.2019.0129)]。
 
-Accorging to the three-leayerd structure of MIABIS, ths Cohort Data Discovery API handles of of 
+Accorging to the three-leayerd structure of MIABIS, ths Cohort Data Discovery API handles of
 - Our standardized metadata
-  - cohort-level metadata (コホートのサマリー、登録、収集データの種別などのコホートの特徴を表すメタデータ）
-  - collection-level metadata (Upper cohort nameやデータ収集期間などのコレクションの特徴を表すメタデータ）
-  - individual-level metadata (individual eventsから発生するデータエレメントの由来、standard identifiersを含む特徴を表すメタデータ）
+  - cohort-level metadata (about characteristics of cohort including summary, enrollment and species of the collected data）
+  - collection-level metadata (about characteristics of the collection including upper cohort name and data collection period）
+  - individual-level metadata (about characteristics of data elements derived from individual events including provenances and standard identifiers of data elements）
 And
 - statistical properties of the data elements
   - distributions of indivisual items
   - items for visualization (such as axies information)
-をハンドルし、データベースの検索を通じてJSON形式で返却することで、研究者が研究対象とするデータセットが含まれるコホート、コレクション、データエレメントのセットの発見を促進する。
+The handled metadata and statistical properties are retuned by JSON format through search of database.
+我々のAPIは、研究者が研究対象とするデータセットが含まれるコホート、コレクション、データエレメントのセットの発見を促進する。
 
 
 # Requirenent
