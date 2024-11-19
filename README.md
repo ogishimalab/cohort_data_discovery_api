@@ -14,15 +14,15 @@ Ths MIABIS has a three-layered structure consising of;
 - indvidual components
 [Eklund N et al, Biopreserv Biobank. 2020(https://www.liebertpub.com/doi/10.1089/bio.2019.0129)]。
 
-Accorging to the three-leayerd structure of MIABIS, ths Cohort Data Discovery API handles 
-- 我々が標準化を行ったメタデータ
-  - コホートレベルメタデータ（コホートのサマリー、登録、収集データの種別などのコホートの特徴を表すメタデータ）
-  - コレクションレベルメタデータ（Upper cohort nameやデータ収集期間などのコレクションの特徴を表すメタデータ）
-  - individual-level metadata（individual eventsから発生するデータエレメントの由来、standard identifiersを含む特徴を表すメタデータ）
-および、
-- データエレメントの統計的特性統計的性質
-  - 分布情報
-  - 軸情報などの可視化のためのitems
+Accorging to the three-leayerd structure of MIABIS, ths Cohort Data Discovery API handles of of 
+- Our standardized metadata
+  - cohort-level metadata (コホートのサマリー、登録、収集データの種別などのコホートの特徴を表すメタデータ）
+  - collection-level metadata (Upper cohort nameやデータ収集期間などのコレクションの特徴を表すメタデータ）
+  - individual-level metadata (individual eventsから発生するデータエレメントの由来、standard identifiersを含む特徴を表すメタデータ）
+And
+- statistical properties of the data elements
+  - distributions of indivisual items
+  - items for visualization (such as axies information)
 をハンドルし、データベースの検索を通じてJSON形式で返却することで、研究者が研究対象とするデータセットが含まれるコホート、コレクション、データエレメントのセットの発見を促進する。
 
 
