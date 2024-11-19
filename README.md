@@ -24,8 +24,7 @@ And
   - distributions of indivisual items
   - items for visualization (such as axies information)
 The handled metadata and statistical properties are retuned by JSON format through search of database.
-我々のAPIは、研究者が研究対象とするデータセットが含まれるコホート、コレクション、データエレメントのセットの発見を促進する。
-
+Our developed API facilitates the discovery of the research target sets of cohort, collection and dataelement.
 
 # Requirenent
 Laravel framework version 8.0 and PHP 7.4
