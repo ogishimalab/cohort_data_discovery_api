@@ -1,7 +1,12 @@
 # Cohort Data Discovery API
 
 
-Cohort data discovery APIは、大規模コホート研究のデータ発見のためにデザイン・実装されたAPI機能およびエンドポイントです。大規模コホート研究は、特に多因子疾患のprecision medicineの実装のために、多種類かつ大量のデータを収集しています。一方で、どのコホート研究でどのようなデータを収集しているかのデータ発見が困難であり、mega cohortの構築が不可能な状態となっている。
+Cohort data discovery API is the API function and API endpoint designed and implemented for data discovery from large-scale cohort studies. 
+In the large-scale cohort studies, to implement precision
+medicine for multifactorial diseases, wide variety of large amounts of data are collection including lifestyle data, laboratory data,
+physiological data, clinical data, lifelog data, and genome and omics data. 
+
+一方で、どのコホート研究でどのようなデータを収集しているかのデータ発見が困難であり、mega cohortの構築が不可能な状態となっている。
 
 大規模コホートデータを含むバイオバンク関連データの標準は、the minimum data element of biobank-related data, including large-scale cohort data（MIABIS）の、
 - biobank
@@ -25,10 +30,9 @@ Cohort data discovery APIは、大規模コホート研究のデータ発見の�
 Laravel framework version 8.0 and PHP 7.4
 
 # Usage
-1. Laravel, PHP, mySQLのインストール、設定
-2. mySQLデータベースのcreate (create文を用意）
-3. （Optional) 可視化のためのWebインターフェースを用意する
-
+1. Install and setting of Laravel, PHP and mySQL
+2. Create mySQL database
+3. （Optional) Develop web interface for visualization
 # Specifications
 See [specifications](https://github.com/ogishimalab/cohort_data_discovery_api/blob/main/API/specifications.md)
 
