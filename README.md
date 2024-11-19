@@ -19,7 +19,6 @@ Accorging to the three-leayerd structure of MIABIS, ths Cohort Data Discovery AP
   - cohort-level metadata (about characteristics of cohort including summary, enrollment and species of the collected data）
   - collection-level metadata (about characteristics of the collection including upper cohort name and data collection period）
   - individual-level metadata (about characteristics of data elements derived from individual events including provenances and standard identifiers of data elements）
-And
 - statistical properties of the data elements
   - distributions of indivisual items
   - items for visualization (such as axies information)
