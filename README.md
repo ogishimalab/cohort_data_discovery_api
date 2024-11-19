@@ -6,13 +6,15 @@ In the large-scale cohort studies, to implement precision
 medicine for multifactorial diseases, wide variety of large amounts of data are collection including lifestyle data, laboratory data,
 physiological data, clinical data, lifelog data, and genome and omics data. On the other hands, there is a hurdle to achieve data discovery from collected data in the cohort studies to develp mega cohorts.
 
-For the 大規模コホートデータを含むバイオバンク関連データの標準は、the minimum data element of biobank-related data, including large-scale cohort data（MIABIS）の、
+
+As the standard of the minimum data element of biobank-related data including large-scale cohort data, the  the Minimum Information About BIobank data Sharing (MIABIS) has been developed. 
+Ths MIABIS has a three-layered structure consising of;
 - biobank
 - collections
 - indvidual components
+[Eklund N et al, Biopreserv Biobank. 2020(https://www.liebertpub.com/doi/10.1089/bio.2019.0129)]。
 
-の3つの層が定義されている[Eklund N et al, Biopreserv Biobank. 2020(https://www.liebertpub.com/doi/10.1089/bio.2019.0129)]。
-このAPIでは、MIABISで定義されている3層構造に従い、
+Accorging to the three-leayerd structure of MIABIS, ths Cohort Data Discovery API handles 
 - 我々が標準化を行ったメタデータ
   - コホートレベルメタデータ（コホートのサマリー、登録、収集データの種別などのコホートの特徴を表すメタデータ）
   - コレクションレベルメタデータ（Upper cohort nameやデータ収集期間などのコレクションの特徴を表すメタデータ）
