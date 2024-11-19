@@ -4,7 +4,7 @@
 Cohort data discovery API is the API function and API endpoint designed and implemented for data discovery from large-scale cohort studies. 
 In the large-scale cohort studies, to implement precision
 medicine for multifactorial diseases, enourmous amouts of data are collection including lifestyle data, laboratory data,
-physiological data, clinical data, lifelog data, and genome and omics data. Because of the large and complex data, there is a hurdle to achieve data discovery from collected data in the cohort studies to develp mega cohorts.
+physiological data, clinical data, lifelog data, and genome and omics data. Because of the enourmous scale of data, there is a hurdle to achieve data discovery from collected data in the cohort studies to develp mega cohorts.
 
 
 As the standard of the minimum data element of biobank-related data including large-scale cohort data, the Minimum Information About BIobank data Sharing (MIABIS) has been developed. 
