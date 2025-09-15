@@ -1,6 +1,6 @@
 # Cohort data discovery API
 
-Cohort data discovery API is the API function and API endpoint designed and implemented for data discovery from large-scale cohort studies. In the large-scale cohort studies, to implement precision medicine for multifactorial diseases, enourmous amouts of data are collection including lifestyle data, laboratory data, physiological data, clinical data, lifelog data, and genome and omics data. Because of the enourmous scale of data, there is a hurdle to achieve data discovery from collected data in the cohort studies to develp mega cohorts.
+This project develops a Cohort data discovery API, which provides both the API function and endpoint designed for efficient data discovery from large-scale cohort studies. In such studies, aimed at implementing precision medicine for multifactorial diseases, enormous amounts of data are collected, including lifestyle data, laboratory test results, physiological data, clinical records, lifelog data, and genome and other omics datasets. Due to the sheer scale and complexity of these data, achieving effective data discovery poses a significant hurdle, particularly when attempting to integrate and develop mega-cohorts from existing cohort resources.
 
 As the standard of the minimum data element of biobank-related data including large-scale cohort data, the Minimum Information About BIobank data Sharing (MIABIS) has been developed. 
 Ths MIABIS has a three-layered structure consising of
@@ -20,20 +20,20 @@ Accorging to the three-leayerd structure of MIABIS, ths Cohort Data Discovery AP
 The handled metadata and statistical properties are retuned by JSON format through search of database.
 Our developed API facilitates the discovery of the research target sets of cohort, collection and dataelement.
 
-# Requirenent
+## Requirenent
 Laravel framework version 8.0 and PHP 7.4
 
-# Usage
+## Usage
 1. Install and setting of Laravel, PHP and mySQL
 2. Create mySQL database
 3. （Optional) Develop web interface for visualization
 # Specifications
 See [specifications](https://github.com/ogishimalab/cohort_data_discovery_api/blob/main/API/specifications.md)
 
-# Licensing
+## Licensing
 MIT License
 
-# Citation
+## Citation
 If you utilize this repository, data in a downstream project, please consider citing it with:
 
 ```
